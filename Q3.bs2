@@ -41,7 +41,7 @@ Main:
     PAUSE 20
   NEXT
 
-  FOR pulses = 1 TO 39                          ' pivot 90 on left wheel
+  FOR pulses = 1 to 45                          ' pivot 90 on left wheel
     PULSOUT LMotor, LStop
     PULSOUT RMotor, RFwdSlow
     PAUSE 20
@@ -53,7 +53,7 @@ Main:
     PAUSE 20
   NEXT
 
-  FOR pulses = 1 TO 39                          ' pivot 90 on left wheel
+  FOR pulses = 1 to 45                          ' pivot 90 on left wheel
     PULSOUT LMotor, LStop
     PULSOUT RMotor, RFwdSlow
     PAUSE 20
@@ -65,7 +65,7 @@ Main:
     PAUSE 20
   NEXT
 
-  FOR pulses = 1 TO 39                          ' pivot 90 on left wheel
+  FOR pulses = 1 to 45                          ' pivot 90 on left wheel
     PULSOUT LMotor, LStop
     PULSOUT RMotor, RFwdSlow
     PAUSE 20
@@ -77,7 +77,7 @@ Main:
     PAUSE 20
   NEXT
 
-  FOR pulses = 1 TO 39                          ' pivot 90 on left wheel
+  FOR pulses = 1 to 45                          ' pivot 90 on left wheel
     PULSOUT LMotor, LStop
     PULSOUT RMotor, RFwdSlow
     PAUSE 20
