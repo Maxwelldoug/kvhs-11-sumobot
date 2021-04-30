@@ -35,87 +35,87 @@ Reset:
 ' -----[ Program Code ]----------------------------------------------------
 
 Main:
-  FOR pulses = 1 TO 40                          ' fwd slow, ~12 inches
+  FOR pulses = 1 TO 60                          ' fwd slow, ~12 inches
     PULSOUT LMotor, LFwdSlow
     PULSOUT RMotor, RFwdSlow
     PAUSE 20
   NEXT
 
-  FOR pulses = 1 TO 50                          ' pivot 90 on left wheel
+  FOR pulses = 1 TO 54                          ' pivot 90 on left wheel
     PULSOUT LMotor, LStop
     PULSOUT RMotor, RFwdSlow
     PAUSE 20
   NEXT
 
-  FOR pulses = 1 TO 40                          ' fwd slow, ~12 inches
+  FOR pulses = 1 TO 60                          ' fwd slow, ~12 inches
     PULSOUT LMotor, LFwdSlow
     PULSOUT RMotor, RFwdSlow
     PAUSE 20
   NEXT
 
-  FOR pulses = 1 TO 50                          ' pivot 90 on left wheel
+  FOR pulses = 1 TO 54                          ' pivot 90 on left wheel
     PULSOUT LMotor, LStop
     PULSOUT RMotor, RFwdSlow
     PAUSE 20
   NEXT
 
-  FOR pulses = 1 TO 40                          ' fwd slow, ~12 inches
+  FOR pulses = 1 TO 60                          ' fwd slow, ~12 inches
     PULSOUT LMotor, LFwdSlow
     PULSOUT RMotor, RFwdSlow
     PAUSE 20
   NEXT
 
-  FOR pulses = 1 TO 50                          ' pivot 90 on left wheel
+  FOR pulses = 1 TO 54                          ' pivot 90 on left wheel
     PULSOUT LMotor, LStop
     PULSOUT RMotor, RFwdSlow
     PAUSE 20
   NEXT
 
-  FOR pulses = 1 TO 40                          ' fwd slow, ~12 inches
+  FOR pulses = 1 TO 60                          ' fwd slow, ~12 inches
     PULSOUT LMotor, LFwdSlow
     PULSOUT RMotor, RFwdSlow
     PAUSE 20
   NEXT
 
-  FOR pulses = 1 TO 50                          ' pivot 90 on left wheel
+  FOR pulses = 1 TO 54                          ' pivot 90 on left wheel
     PULSOUT LMotor, LStop
     PULSOUT RMotor, RFwdSlow
     PAUSE 20
   NEXT
 
-PAUSE 100
+PAUSE 1000
 
-  FOR pulses = 1 TO 40                          ' fwd slow, ~12 inches
+  FOR pulses = 1 TO 60                          ' fwd slow, ~12 inches
     PULSOUT LMotor, LFwdSlow
     PULSOUT RMotor, RFwdSlow
     PAUSE 20
   NEXT
 
-  FOR pulses = 1 TO 67                          ' pivot 120 on left wheel
+  FOR pulses = 1 TO 72                          ' pivot 120 on left wheel
     PULSOUT LMotor, LStop
     PULSOUT RMotor, RFwdSlow
     PAUSE 20
   NEXT
 
-  FOR pulses = 1 TO 40                          ' fwd slow, ~12 inches
+  FOR pulses = 1 TO 60                          ' fwd slow, ~12 inches
     PULSOUT LMotor, LFwdSlow
     PULSOUT RMotor, RFwdSlow
     PAUSE 20
   NEXT
 
-  FOR pulses = 1 TO 67                          ' pivot 120 on left wheel
+  FOR pulses = 1 TO 72                          ' pivot 120 on left wheel
     PULSOUT LMotor, LStop
     PULSOUT RMotor, RFwdSlow
     PAUSE 20
   NEXT
 
-  FOR pulses = 1 TO 40                          ' fwd slow, ~12 inches
+  FOR pulses = 1 TO 60                          ' fwd slow, ~12 inches
     PULSOUT LMotor, LFwdSlow
     PULSOUT RMotor, RFwdSlow
     PAUSE 20
   NEXT
 
-  FOR pulses = 1 TO 67                          ' pivot 120 on left wheel
+  FOR pulses = 1 TO 72                          ' pivot 120 on left wheel
     PULSOUT LMotor, LStop
     PULSOUT RMotor, RFwdSlow
     PAUSE 20
