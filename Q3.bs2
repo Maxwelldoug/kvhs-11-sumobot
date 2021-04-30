@@ -83,6 +83,42 @@ Main:
     PAUSE 20
   NEXT
 
+  FOR pulses = 1 TO 40                          ' fwd slow, ~12 inches
+    PULSOUT LMotor, LFwdSlow
+    PULSOUT RMotor, RFwdSlow
+    PAUSE 20
+  NEXT
+
+  FOR pulses = 1 TO 67                          ' pivot 120 on left wheel
+    PULSOUT LMotor, LStop
+    PULSOUT RMotor, RFwdSlow
+    PAUSE 20
+  NEXT
+
+  FOR pulses = 1 TO 40                          ' fwd slow, ~12 inches
+    PULSOUT LMotor, LFwdSlow
+    PULSOUT RMotor, RFwdSlow
+    PAUSE 20
+  NEXT
+
+  FOR pulses = 1 TO 67                          ' pivot 120 on left wheel
+    PULSOUT LMotor, LStop
+    PULSOUT RMotor, RFwdSlow
+    PAUSE 20
+  NEXT
+
+  FOR pulses = 1 TO 40                          ' fwd slow, ~12 inches
+    PULSOUT LMotor, LFwdSlow
+    PULSOUT RMotor, RFwdSlow
+    PAUSE 20
+  NEXT
+
+  FOR pulses = 1 TO 67                          ' pivot 120 on left wheel
+    PULSOUT LMotor, LStop
+    PULSOUT RMotor, RFwdSlow
+    PAUSE 20
+  NEXT
+
 Hold_Position:
   DO
     PULSOUT LMotor, LStop
