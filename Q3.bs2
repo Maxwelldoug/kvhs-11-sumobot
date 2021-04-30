@@ -83,6 +83,8 @@ Main:
     PAUSE 20
   NEXT
 
+PAUSE 100
+
   FOR pulses = 1 TO 40                          ' fwd slow, ~12 inches
     PULSOUT LMotor, LFwdSlow
     PULSOUT RMotor, RFwdSlow
