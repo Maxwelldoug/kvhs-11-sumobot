@@ -165,7 +165,7 @@ FOR pulses = 1 TO 60                          ' fwd slow, ~12 inches
   PAUSE 20
 NEXT
 
-FOR pulses = 1 TO 54                          ' pivot 90 on right wheel
+FOR pulses = 1 TO 80                          ' pivot 90 on right wheel
   PULSOUT LMotor, LFwdSlow
   PULSOUT RMotor, RStop
   PAUSE 20
