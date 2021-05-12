@@ -6,6 +6,10 @@
 
 LMotor       PIN        13                      ' left servo motor
 RMotor       PIN        12                      ' right servo motor
+LLinePwr     PIN        10                      ' left line sensor power
+LLineIn      PIN        9                       ' left line sensor input
+RLinePwr     PIN        7                       ' right line sensor power
+RLineIn      PIN        8                       ' right line sensor input
 
 ' -----[ Constants ]-------------------------------------------------------
 
@@ -24,6 +28,11 @@ RRevFast     CON        1000                    ' right motor rev; fast
 ' -----[ Variables ]-------------------------------------------------------
 
 pulses       VAR        Byte                    ' servo pulses counter
+lLine        VAR        Word                    ' left sensor raw reading
+rLine        VAR        Word                    ' right sensor raw reading
+lineBits     VAR        Nib                     ' decoded sensors value
+lbLeft       VAR        lineBits.BIT1
+lbRight      VAR        lineBits.BIT0
 
 ' -----[ Initialization ]--------------------------------------------------
 
@@ -33,3 +42,5 @@ Reset:
   PAUSE 2000                                    ' time to disconnect cable
 
 ' -----[ Program Code ]----------------------------------------------------
+
+Main:
