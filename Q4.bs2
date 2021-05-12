@@ -82,8 +82,8 @@ About_Face:
     PAUSE 20
   NEXT
   FOR pulses = 1 TO 40
-    PULSOUT LMotor, LRevFast
-    PULSOUT RMotor, RRevFast
+    PULSOUT LMotor, LFwdFast
+    PULSOUT RMotor, RFwdFast
     PAUSE 20
   NEXT
   END
